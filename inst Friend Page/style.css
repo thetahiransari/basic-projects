@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: #87C0E7;
+    padding: 20PX;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 40px;
+    color: black;
+    margin: 10px;
+}
+.card i {
+    font-size: 40px;
+    color: blue;
+}
+.card h2:hover{
+    color: blue;
+    /* font-size: 50px; */
+    text-decoration: dashed;
+}
+
+.card h5 {
+    font-size: 29px;
+    color: rgb(0, 1, 0);
+    font-weight: 900;
+    margin: 10px;
+}
+
+.card button {
+    background-color: rgb(224, 202, 202);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    margin: 5px;
+    font-size: medium;
+}
+
+.card #bt {
+    background-color: rgb(0, 0, 0);
+    color: rgb(80, 43, 43);
+}
+.card button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 900;
+    text-decoration: wavy ;
+}
+.card:hover{
+    /* background-color: rgb(254, 251, 251); */
+
+}
+.card:hover{
+    color: rgb(3, 0, 9);
+}
+.card img :hover{
+     
+    
+}
